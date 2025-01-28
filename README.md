@@ -38,6 +38,6 @@ Play tic-tac-toe with Dino.
 ### Dinoguessing
 
 Dino will try to guess a creature that the player thought of.
-the dinosaur learns more creatures during the game and will
+The dinosaur learns more creatures during the game and will
 remember and use your answers. Dino's questions can be edited
 if instead of answering them with `y` or `n` you input `edit`.
