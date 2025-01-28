@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Is it an animal",
+        "yes": 3,
+        "no": 1
+    },
+    {
+        "question": "Is it a plant",
+        "yes": null,
+        "no": 2
+    },
+    {
+        "question": "Is it fungi",
+        "yes": null,
+        "no": null
+    },
+    {
+        "question": "Does it live in the water",
+        "yes": null,
+        "no": 5
+    },
+    {
+        "question": "Can it fly",
+        "yes": null,
+        "no": null
+    }
+]
