@@ -1,5 +1,4 @@
 import json
-import random
 import dinterface
 import sys
 
@@ -96,7 +95,10 @@ class Game:
 
     def ask_question(self):
         next_guess = None
-        ans = get_yes_no(f"{self.animals[self.index]['question']}? ", edit=True)
+        ans = get_yes_no(
+            f"{self.animals[self.index]['question']}? ",
+            edit=True
+        )
         if ans == "edit":
             q = input("Input the changed question text:\n").strip('? ')
             self.animals[self.index]["question"] = q
@@ -122,7 +124,7 @@ class Game:
         dinterface.give_up()
         self.scoreboard[1] += 1
         animal = input("It is a")
-        question = input(f"Tell me something about it.\nIt ")
+        question = input("Tell me something about it.\nIt ")
         question, pos = parse(question)
         self.animals[self.index][self.yes] = len(self.animals)
         if pos:
@@ -138,7 +140,6 @@ class Game:
                 "no": animal,
             })
         self.file.save_data(self.animals)
-
 
     def make_guess(self):
         if get_yes_no(f"Is it a{self.guess}? "):
