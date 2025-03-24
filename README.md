@@ -19,7 +19,7 @@ Installation and usage
 
 1. Make sure you have git and Python installed
 2. `git clone` the repository to your computer
-3. `cd` into the `DinoGames` directory
+3. `cd` into the `dino-games` directory
 4. Run `python dinowords.py`, `python dinotictactoe.py`
 or `python dinoguessing.py` to play.
 
